@@ -1,4 +1,5 @@
 import re
+
 def inserir_dados():
     lista_candidatos = []
     while True:
@@ -10,7 +11,7 @@ def inserir_dados():
 
         while True:
             try:
-                entrevista = int(input("Nota da entrevista (0-10): "))
+                entrevista = float(input("Nota da entrevista (0-10): "))
                 if not 0 <= entrevista <= 10:
                     raise ValueError
                 break
@@ -19,7 +20,7 @@ def inserir_dados():
 
         while True:
             try:
-                teste_teorico = int(input("Nota do teste teórico (0-10): "))
+                teste_teorico = float(input("Nota do teste teórico (0-10): "))
                 if not 0 <= teste_teorico <= 10:
                     raise ValueError
                 break
@@ -28,7 +29,7 @@ def inserir_dados():
 
         while True:
             try:
-                teste_pratico = int(input("Nota do teste prático (0-10): "))
+                teste_pratico = float(input("Nota do teste prático (0-10): "))
                 if not 0 <= teste_pratico <= 10:
                     raise ValueError
                 break
@@ -37,7 +38,7 @@ def inserir_dados():
 
         while True:
             try:
-                soft_skills = int(input("Nota de soft skills (0-10): "))
+                soft_skills = float(input("Nota de soft skills (0-10): "))
                 if not 0 <= soft_skills <= 10:
                     raise ValueError
                 break
@@ -71,15 +72,13 @@ def exibir_resultados(lista_candidatos):
         print(f"Soft skills: {candidato['soft_skills']}")
 
 def buscar_por_nota(lista_candidatos):
-
-
     pesquisar = input("Você deseja pesquisar algum resultado? (S/N) ")
     if not pesquisar.lower().startswith("s"):
         return
 
     while True:
         try:
-            valor_minimo = int(input("Digite a nota mínima desejada (0-10): "))
+            valor_minimo = float(input("Digite a nota mínima desejada (0-10): "))
             if not 0 <= valor_minimo <= 10:
                 raise ValueError
             break
