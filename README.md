@@ -25,18 +25,16 @@ conhecimento básico de como usar o terminal ou prompt de comando para interagir
 
     bash
 
-git clone https://github.com/seu-usuario/sistema-avaliacao-candidatos.git
+`git clone https://github.com/Dannfonseca/trabalho-individual-m-dulo-1/blob/main/README.md`
 
 Execute o Programa: Navegue até o diretório onde o repositório foi clonado e execute o arquivo avaliacao_candidatos.py 
 com Python:
 
-bash
 
-    cd sistema-avaliacao-candidatos
-    python avaliacao_candidatos.py
+`cd https://github.com/Dannfonseca/trabalho-individual-m-dulo-1/tree/main`
 
-    Siga as Instruções: Siga as instruções fornecidas pelo sistema para inserir dados sobre os candidatos, 
-    exibir resultados ou realizar uma busca por nota.
+Siga as Instruções: Siga as instruções fornecidas pelo sistema para inserir dados sobre os candidatos,  
+exibir resultados ou realizar uma busca por nota.
 
 # Contribuição
 
