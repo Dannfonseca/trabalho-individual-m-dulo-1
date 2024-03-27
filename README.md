@@ -1,7 +1,7 @@
 # Sistema de Avaliação de Candidatos
 
-Este é um simples sistema de avaliação de candidatos, desenvolvido em Python, que permite inserir dados sobre os candidatos, exibir 
-os resultados e realizar uma busca por candidatos que atendam a critérios mínimos de notas.
+Este é um simples sistema de avaliação de candidatos, desenvolvido em Python, que permite inserir dados sobre os candidatos, 
+exibir os resultados e realizar uma busca por candidatos que atendam a critérios mínimos de notas.
 Funcionalidades
 
 # O sistema possui as seguintes funcionalidades:
@@ -16,8 +16,8 @@ Funcionalidades
 
 # Requisitos
 
-Para executar este sistema, é necessário ter Python instalado em seu ambiente. Além disso, é recomendado que você tenha conhecimento básico 
-de como usar o terminal ou prompt de comando para interagir com o sistema.
+Para executar este sistema, é necessário ter Python instalado em seu ambiente. Além disso, é recomendado que você tenha 
+conhecimento básico de como usar o terminal ou prompt de comando para interagir com o sistema.
 
 # Como Usar
 
@@ -27,19 +27,21 @@ de como usar o terminal ou prompt de comando para interagir com o sistema.
 
 git clone https://github.com/seu-usuario/sistema-avaliacao-candidatos.git
 
-Execute o Programa: Navegue até o diretório onde o repositório foi clonado e execute o arquivo avaliacao_candidatos.py com Python:
+Execute o Programa: Navegue até o diretório onde o repositório foi clonado e execute o arquivo avaliacao_candidatos.py 
+com Python:
 
 bash
 
     cd sistema-avaliacao-candidatos
     python avaliacao_candidatos.py
 
-    Siga as Instruções: Siga as instruções fornecidas pelo sistema para inserir dados sobre os candidatos, exibir resultados ou realizar uma busca por nota.
+    Siga as Instruções: Siga as instruções fornecidas pelo sistema para inserir dados sobre os candidatos, 
+    exibir resultados ou realizar uma busca por nota.
 
 # Contribuição
 
-Se você quiser contribuir com este projeto, sinta-se à vontade para abrir uma issue relatando bugs, sugestões ou melhorias. 
-Além disso, pull requests são sempre bem-vindos!
+Se você quiser contribuir com este projeto, sinta-se à vontade para abrir uma issue relatando bugs, 
+sugestões ou melhorias. Além disso, pull requests são sempre bem-vindos!
 Autor
 
 Este projeto foi desenvolvido por Daniel Nascimento.
